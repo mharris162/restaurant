@@ -1,15 +1,45 @@
 nav{
     background-color: #150300;
+    color: beige;
     text-transform: uppercase;
-    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  
+    
 }
-
 
 nav a{ 
     text-decoration: none;
     color: beige;
 }
 
-h1{ 
-color: orange;
+a:link {
+  color: beige;
+  text-decoration: none;
 }
+
+a:visited {
+  color: beige;
+  text-decoration: underline;
+}
+
+a:active {
+  color: beige;
+  text-decoration: underline;
+
+}
+
+nav ul{ 
+    list-style: none;
+    margin-left: 60rem;
+    display: flex;
+    gap: 1.5rem;
+    text-align: right;
+    font-weight: normal;
+    align-content: center;
+
+}
+
+  h1{ 
+    color: orange;
+    }
