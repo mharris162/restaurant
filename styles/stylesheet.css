@@ -3,8 +3,7 @@ nav{
     color: beige;
     text-transform: uppercase;
     text-align: left;
-    font-weight: bold;
-  
+    font-weight: bold;    
     
 }
 
@@ -13,21 +12,27 @@ nav a{
     color: beige;
 }
 
-a:link {
-  color: beige;
+
+
+nav a:link {
   text-decoration: none;
 }
 
-a:visited {
-  color: beige;
+nav a:visited {
+  text-decoration: none;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
 
-a:active {
-  color: beige;
+nav a:active {
   text-decoration: underline;
-
 }
+
+
+
+
 
 nav ul{ 
     list-style: none;
@@ -36,10 +41,47 @@ nav ul{
     gap: 1.5rem;
     text-align: right;
     font-weight: normal;
-    align-content: center;
 
+}
+
+section{
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+}
+
+aside{
+  float: right;
+  
+}
+
+figcaption{
+  display: none;
+}
+
+article{
+
+  text-align: center;
+  
+ 
+}
+
+section a{ 
+  color:orange;
 }
 
   h1{ 
     color: orange;
-    }
+    font-family: cursive; 
+  }
+
+  h2{
+    text-transform: uppercase;
+
+  }
+
+ 
+
+
+
+ 
