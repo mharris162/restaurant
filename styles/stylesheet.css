@@ -1,9 +1,15 @@
 nav{
-background-color: black;
-padding:30 px;
+    background-color: #150300;
+    text-transform: uppercase;
+    padding: 10px;
 }
+
 
 nav a{ 
     text-decoration: none;
     color: beige;
+}
+
+h1{ 
+color: orange;
 }
