@@ -1,1 +1,98 @@
 @use "./vendor/_normalize.scss";
+@use "./partials/colors.scss";
+
+// Medium screens and up
+@media (min-width: 768px) {
+   
+  }
+  // Big screens
+  @media (min-width: 1024px) {
+    
+  }
+nav{
+    background-color: #150300;
+    color: beige;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;    
+    
+}
+
+nav a{ 
+    text-decoration: none;
+    color: beige;
+}
+
+
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+
+
+
+
+nav ul{ 
+    list-style: none;
+    margin-left: 60rem;
+    display: flex;
+    gap: 1.5rem;
+    text-align: right;
+    font-weight: normal;
+
+}
+
+section{
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+}
+
+aside{
+  float: right;
+  
+}
+
+figcaption{
+  display: none;
+}
+
+article{
+
+  text-align: center;
+  
+ 
+}
+
+section a{ 
+  color:orange;
+}
+
+  h1{ 
+    color: orange;
+    font-family: cursive; 
+  }
+
+  h2{
+    text-transform: uppercase;
+
+  }
+
+ 
+
+
+
+ 
