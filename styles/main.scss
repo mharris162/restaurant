@@ -7,14 +7,21 @@
   }
   // Big screens
   @media (min-width: 1024px) {
+
+    $primary-font-color: #575757;
+    
+    $dark-background: #414141;
+    $darker-background: #150300;
     
   }
 nav{
-    background-color: #150300;
+    $darker-background: #150300;
+    background-color: $darker-background;
     color: beige;
     text-transform: uppercase;
     text-align: left;
     font-weight: bold;    
+    padding: 15px;
     
 }
 
@@ -71,6 +78,8 @@ figcaption{
 }
 
 article{
+    $primary-font-color: #575757;
+    color: $primary-font-color;
 
   text-align: center;
   
@@ -78,11 +87,13 @@ article{
 }
 
 section a{ 
-  color:orange;
+    $secondary-font-color: #DB8D33;
+    color: $secondary-font-color;
 }
 
   h1{ 
-    color: orange;
+    $secondary-font-color: #DB8D33;
+    color: $secondary-font-color;
     font-family: cursive; 
   }
 
@@ -90,7 +101,19 @@ section a{
     text-transform: uppercase;
 
   }
-
+  
+  footer{
+    padding: 15px;
+    $dark-background: #414141;
+    background-color: $dark-background;
+    color:white;
+   p{
+    display: inline-block;
+   }
+   #extra{
+    text-align: left;
+   }
+  }
  
 
 
