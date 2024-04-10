@@ -1,5 +1,6 @@
 @use "./vendor/_normalize.scss";
 @use "./partials/colors.scss";
+@use "./partials/typography";
 
 // Medium screens and up
 @media (min-width: 768px) {
@@ -22,6 +23,7 @@ nav{
     text-align: left;
     font-weight: bold;    
     padding: 15px;
+    font-family: typography.$font-monserrat;
     
 }
 
@@ -80,6 +82,7 @@ figcaption{
 article{
     $primary-font-color: #575757;
     color: $primary-font-color;
+    font-family: typography.$font-dosis;
 
   text-align: center;
   
@@ -87,18 +90,20 @@ article{
 }
 
 section a{ 
-    $secondary-font-color: #DB8D33;
+    text-transform: uppercase;
     color: $secondary-font-color;
+    font-weight: 600;
+
 }
 
   h1{ 
-    $secondary-font-color: #DB8D33;
-    color: $secondary-font-color;
-    font-family: cursive; 
+    @include header;
+    
   }
 
   h2{
     text-transform: uppercase;
+    font-family: typography.$font-monserrat;
 
   }
   
@@ -107,6 +112,7 @@ section a{
     $dark-background: #414141;
     background-color: $dark-background;
     color:white;
+    font-family: typography.$font-dosis;
    p{
     display: inline-block;
    }
