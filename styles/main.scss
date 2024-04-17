@@ -113,13 +113,20 @@ section a{
     background-color: $dark-background;
     color:white;
     font-family: typography.$font-dosis;
-   p{
-    display: inline-block;
-   }
-   #extra{
-    text-align: left;
-   }
+    
   }
+
+
+
+   p {
+    display: inline-block;
+    justify-content: flex-start;
+   }
+   #extra {
+    text-align: left;
+    justify-content: flex-end;
+   }
+  
  
 
 
